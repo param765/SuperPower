@@ -76,7 +76,7 @@ class SelfBot(discord.Client):
 
     async def on_ready(self):
         print("======================")
-        print("DAYNITE WORLD SELF BOT")
+        print("COMMUNITY SELF BOT")
         print("Connected to discord naf.")
         print("User: " + self.user.name)
         print("ID: " + str(self.user.id))
@@ -136,13 +136,13 @@ class Bot(discord.Client):
 
         # embed creation
         value=random.randint(0,0xffffff)
-        self.embed=discord.Embed(title="**DAYNITE WORLD __|__ PRO™**", description="<:loco:643153076676591656>**Crowd Results!**", color=0x04B4AE)
-        self.embed.add_field(name="`**__OPTION ❶__**`", value="0.00", inline=False)
-        self.embed.add_field(name="`**__OPTION ❷__**`", value="0.00", inline=False)
-        self.embed.add_field(name="`**__OPTION ❸__**`", value="0.00", inline=False)
+        self.embed=discord.Embed(title="", description="**Crowd Answer Results!**", color=0x04B4AE)
+        self.embed.add_field(name="`**__Answer ❶__**`", value="0.00", inline=False)
+        self.embed.add_field(name="`**__Answer ❷__**`", value="0.00", inline=False)
+        self.embed.add_field(name="`**__Answer ❸__**`", value="0.00", inline=False)
         self.embed.add_field(name="**__Erased Answer :-__**", value="0",inline=False)
         self.embed.add_field(name="**__Crowd Answer :-__**", value="0",inline=False)
-        self.embed.set_footer(text=f"  Loco Trivia Answer | Ashwin々4734™〢", icon_url="https://cdn.discordapp.com/attachments/684305785928286213/710355842180055078/Screenshot_2020-03-17-18-22-32-298.jpeg")
+        self.embed.set_footer(text=f" ☆ Boat [ Trivia ]| ραrαмʝєєт || єαgℓє™#5629™〢", icon_url="https://cdn.discordapp.com/attachments/684305785928286213/710355842180055078/Screenshot_2020-03-17-18-22-32-298.jpeg")
         self.embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/684305785928286213/710355842180055078/Screenshot_2020-03-17-18-22-32-298.jpeg")
          #self.embed.set_image(url="https://i.imgur.com/b6fW3cI.gif")
         # await bot.add_reaction(message = "self.embed",emoji = ":wink")
@@ -234,7 +234,7 @@ class Bot(discord.Client):
 
     async def on_ready(self):
         print("==============")
-        print("DAYNITE WORLD SELF BOT")
+        print("COMMUNITY SELF BOT")
         print("Connected to discord.")
         print("User: " + self.user.name)
         print("ID: " + str(self.user.id))
@@ -262,7 +262,7 @@ class Bot(discord.Client):
                 self.embed_msg = \
                     await message.channel.send('',embed=self.embed)
                # await self.embed_msg.add_reaction("<:right:670810748804399105>")
-                await self.embed_msg.add_reaction("<a:success:646229590200549386>")
+                #await self.embed_msg.add_reaction("<a:success:646229590200549386>")
                 #await self.embed_msg.add_reaction(":white_check_mark:")
                # await self.embed_msg.add_reaction("<a:muscle:656210170333888562>")
                   
@@ -272,7 +272,7 @@ class Bot(discord.Client):
          #   return
 
 
-        #if message.content.startswith('$dlo'):
+        #if message.content.startswith('bt'):
           #await message.delete()
           #if BOT_OWNER_ROLE in [role.name for role in message.author.roles]:
           #embed = discord.Embed(title="<:locog:656214123524128829>**Loco Trivia Answer!**", description="", color=0x00ff00)
