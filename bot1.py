@@ -20,16 +20,8 @@ import datetime
 
  
 oot_channel_id_list = [
-"568617830258442255", #HQ Private R
+"773602512204201994", #Vedantu D
 "773887570920472576", #Vedantu G
-"773602512812769331", #HQ D
-"773887678722211860", #Moolah G
-"570794448808837131", #SwagIQ R
-"732528577689550878", #LBS G
-"728413225078751251", #HQ World
-"774480643957981226", #Moolah U
-"775237896180727829", #Moolah Trivia C
-"773602513597235231", #SwagIQ D
 
 ]
 
@@ -148,7 +140,7 @@ class Bot(discord.Client):
         self.embed.add_field(name="(Crowd Answer)[https://www.google.com/]", value="0",inline=False)
         #self.embed.add_field(name="(Erased Answer)[https://www.google.com/]", value="0",inline=False)
         self.embed.set_footer(text=f"  Developed By :- Paramjeet", icon_url="https://cdn.discordapp.com/attachments/757929955278585918/774646003130433556/732925603854024714.gif")
-        self.embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/757929955278585918/774644193628913674/20201105_095317.jpg")
+        self.embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/716464269792903208/780839997820633147/1606237070799.png")
          #self.embed.set_image(url="https://i.imgur.com/b6fW3cI.gif")
         # await bot.add_reaction(message = "self.embed",emoji = ":wink")
         # await self.bot.add_reaction(embed,':spy:')
@@ -171,7 +163,7 @@ class Bot(discord.Client):
         one_cross =""
         two_cross =""
         three_cross =""
-        best_answer = "** **   **Fetching** **:-** <a:EmojiResolvable:768633009250893835> "
+        best_answer = "** **   **Fetching** **:-** <a:yellowload:780827930376536115> "
         erased_answer = "** **   **Erasing** **:- ** <:Eraser:760424482002960406> "
               
 
@@ -267,7 +259,7 @@ class Bot(discord.Client):
               await self.update_embeds()
               self.embed_msg = \
                    await message.channel.send('',embed=self.embed)
-              await self.embed_msg.add_reaction("<a:EmojiResolvable:768525399067983912>")
+              #await self.embed_msg.add_reaction("<a:EmojiResolvable:768525399067983912>")
                  #await self.embed_msg.add_reaction("<a:emoji_18:748739056762093608>")
                 #await self.embed_msg.add_reaction(":white_check_mark:")
                # await self.embed_msg.add_reaction("<a:muscle:656210170333888562>")
